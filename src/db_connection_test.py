@@ -2,11 +2,11 @@
 from sqlalchemy import create_engine, text
 
 # Define engine
-user = "postgres"
-pwd = "Abb98bertobis1!"
-host = "localhost"
-port = "5432"
-database = "mobility_network"
+user = ""
+pwd = ""
+host = ""
+port = ""
+database = ""
 engine = create_engine(f'postgresql://{user}:{pwd}@{host}:{port}/{database}')
 
 # Test connection
