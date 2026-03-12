@@ -69,7 +69,7 @@ Install the required dependencies.
 
 The analysis is designed to be fully replicable by following these steps:
 
-* **Database Reconstruction**: Populate a PostGIS instance using the raw geospatial data provided in the `/data` folder (GeoJSON format). 
+* **Database Reconstruction**: Populate a PostGIS instance using the raw geospatial data provided in the `data/` folder (GeoJSON format). 
 
 * **Automated Processing**: Use the provided SQL commands to enable spatial extensions and compute road segment metrics.
 
